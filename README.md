@@ -77,15 +77,6 @@ turkish-english-code-switching/
 
 ---
 
-## Setup
-
-```bash
-pip install transformers datasets torch shap scikit-learn sentence-transformers
-```
-
-Open `notebooks/cs_analysis_pipeline.ipynb` in Google Colab (T4 GPU recommended for SHAP).
-
----
 
 ## Citation
 
@@ -120,19 +111,4 @@ If you use this code or findings, please cite the corpus and models:
 
 ---
 
-## Related Work
 
-This project is part of a computational linguistics portfolio exploring pragmatic understanding in language models:
-
-- **Project 1:** Turkish Sarcasm Detection — shortcut learning diagnosis via SHAP, hybrid ensemble (F1=0.74 out-of-domain)
-- **Project 2:** Turkish Metaphor Detection — zero-shot cross-lingual transfer vs fine-tuning (BERTurk F1=0.77)
-- **Project 3 (this):** Turkish-English Code-Switching — CS sensitivity as pattern matching vs pragmatic understanding
-
-The research arc across projects addresses a single overarching question: *do language models understand pragmatic language, or do they pattern-match it?*
-
----
-
-## Author
-
-Pelin Doğan — Acıbadem University, Computer Science and Engineering  
-Research interests: computational linguistics, NLP, pragmatic understanding in LLMs
