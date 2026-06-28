@@ -1,4 +1,4 @@
-# Do Multilingual Models Understand Turkish-English Code-Switching, or Do They Just Pattern-Match It?
+# Probing Multilingual Sentiment Models on Turkish-English Code-Switching: Confidence, Attribution, and Embedding Geometry
 
 A computational linguistics probing study examining how pre-trained language models process Turkish-English code-switching (CS) text compared to monolingual Turkish counterparts.
 
